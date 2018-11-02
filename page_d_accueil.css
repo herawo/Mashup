@@ -1,0 +1,65 @@
+.tabs{
+    height: 100%;
+    width: 90%;
+    vertical-align: middle;
+    margin: auto;
+}
+.tab-accueil{
+    margin: 5% 2% 5% 2%;
+    width: 40%;
+    height: 100%;
+    border: 2px solid #D8D8D8;
+    border-radius: 5px;
+    float: left;
+    max-height: 400px;
+    min-height: 180px;
+    background-color: white;
+
+}
+
+.tab-row{
+    height: 100%;
+}
+
+.last-video{
+    height: 100%;
+    width: 100%;
+}
+
+.stream-now{
+    height: 100%;
+    width: 100%;
+}
+
+.tab-accueil .title h3{
+    font-size: 150%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tab-accueil .title{
+    height: 15%;
+    text-align: center;
+    max-height: 50px;
+    border-bottom: 1px solid #D8D8D8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tab-accueil .show{
+    height: 85%;
+
+
+}
+
+.last-tweet{
+    min-width: 200px; 
+}
+
+@media(min-width:768px) {
+    .tab-accueil .title h3{
+        font-size: 200%;
+    }
+
+}

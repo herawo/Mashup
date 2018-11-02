@@ -1,0 +1,46 @@
+.container-youtube{
+	padding:2% 2% 0 2%;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.video-player{
+	width: 100%;
+    float: left;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#wrapper.toggled .container-youtube{
+	height: 250px;
+}
+
+.comment{
+	padding: 0 2%;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+.comment img{
+	margin-right: 1%;
+}
+
+.comment:hover{
+	background-color: #F2F2F2;
+}
+
+.video-comments{
+	background: white;
+	margin: 55% 0 0 0;
+}
+
+@media(min-width:768px) {
+	.container-youtube{
+		width: 70%;
+		height: 500px;
+	}
+	#wrapper.toggled .container-youtube{
+		height: 600px;
+	}
+}

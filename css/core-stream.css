@@ -1,0 +1,56 @@
+#wrapper.toggled .container-stream {
+    width: 100%;
+    padding: :2% 2% 0 2%;
+    height: 250px;
+    margin: auto;
+}
+
+.container-stream {
+    padding:2% 2% 0 2%;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.stream {
+    width: 100%;
+    float: left;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.chat {
+    width: 30%;
+    float: left;
+    height: 100%;
+    display: none;
+}
+
+@media(min-width:768px) {
+    .stream {
+        float: left;
+        width: 70%;
+    }
+
+    .chat {
+        display: block;
+    }
+
+    .container-stream {
+        height: 500px;
+    }
+
+    #wrapper.toggled .container-stream {
+        min-height: 700px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #container-stream {
+        height: 400px;
+    }
+    #wrapper.toggled .container-stream {
+        height: 200px;
+    }       
+}

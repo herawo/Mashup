@@ -1,0 +1,108 @@
+.video-disp{
+	margin: 0 1% 0 1%; 
+	padding:1%;
+	height:100%;
+	width:100%;
+}
+
+.video-div{
+	width: 100%;
+    height: 90%;
+    padding: 1%;
+    margin: 2% auto;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.video-aside{
+	width: 30%;
+    height: 100%;
+    float: left;
+    background-color: #000000;
+}
+
+.video-container {
+    display: table;
+    width: 100%;
+	height: 100%;
+}
+
+.video-page-select{
+	width: 50%;
+    text-align: center;
+    display: table-row table; 
+  	margin: 0 auto;
+    height: 10%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.btn{
+    background-color: #424242;
+}
+
+
+.video-item{
+    display: table-row;
+    border-bottom: 1px solid grey;
+}
+
+.thumbnail{
+    padding: 0 1% 0 1%; 
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: table-row;
+}
+
+.text-data{
+    margin-left: 1%; 
+    padding: 0 1% 0 1%; 
+    width: 100%;
+    height: 100%;
+    list-style: none; 
+    vertical-align:top;
+    display: table-row;
+    float: left;
+}
+
+
+.title{
+    height: 90%;
+    width: 100%;
+    text-align: center;
+}
+
+.description{
+    display: none;
+    height: 80%;
+    width: 100%;
+}
+
+@media(min-width:768px) {
+    .description{
+        display: block;
+    }
+
+    .text-data{
+        width: 60%;
+        float: left;
+    }
+
+    .title{
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .thumbnail{
+        width: 35%;
+    }
+
+    .video-div{
+        width: 70%;
+        height: 90%;
+    }
+
+}
